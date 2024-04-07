@@ -11,7 +11,7 @@ out: GitHub-Actions-with-sbt.html
 Setting up GitHub Actions with sbt
 ----------------------------------
 
-[GitHub Actions][GA] is a workflow system by GitHub that supports continuous integration (CI) and continuous deployment (CD). As CI/CD feature was introduced in [2019](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/), it's a newcomer in the CI/CD field, but it quickly rised to the de-facto standard CI solution for open source Scala projects.
+[GitHub Actions][GA] is a workflow system by GitHub that supports continuous integration (CI) and continuous deployment (CD). As CI/CD feature was introduced in [2019](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/), it's a newcomer in the CI/CD field, but it quickly raised to the de-facto standard CI solution for open source Scala projects.
 
 
 ### Set `project/build.properties`
@@ -139,7 +139,7 @@ Overall, the use of caching should shave off a few minutes of build time per job
 
 ### Build matrix
 
-When creating a continous integration job, it's fairly common to split up the task into multiple jobs that runs in parallel. For example, we could:
+When creating a continuous integration job, it's fairly common to split up the task into multiple jobs that runs in parallel. For example, we could:
 
 - Run identical tests on JDK 8, JDK 11, Linux, macOS, and Windows
 - Run different subset of tests on the same JDK, OS, and other setups
