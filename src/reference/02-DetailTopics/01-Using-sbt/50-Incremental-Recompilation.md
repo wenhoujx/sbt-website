@@ -656,7 +656,7 @@ debugging in your project. First, we download the `diffutils` jar and
 pass it to sbt:
 
 ``` 
-curl -O https://java-diff-utils.googlecode.com/files/diffutils-1.2.1.jar
+curl -O https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/java-diff-utils/diffutils-1.2.1.jar
 sbt -Dsbt.extraClasspath=diffutils-1.2.1.jar
 [info] Loading project definition from /Users/grek/tmp/sbt-013/project
 [info] Set current project to sbt-013 (in build file:/Users/grek/tmp/sbt-013/)
