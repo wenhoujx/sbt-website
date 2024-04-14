@@ -171,10 +171,10 @@ of the dependency is declared in the build, and it satisfies the
 range, then sbt will use the specified version.  Otherwise, Coursier could
 go out to the Internet to find the latest version.  This would result
 to a surprising behavior where the effective version keeps changing
-over time, even though there's a specified version of the library that
-satisfies the range condition.
+over time, even though there's a specified version of the library in the build 
+but it doesn't satisfy the range condition.
 
-Maven version ranges will be replaced with its lower bound if the
+Maven version ranges will be replaced with its lower bound in the
 build so that when a satisfactory version is found in the dependency
 graph it will be used.  You can disable this behavior using the JVM
 flag `-Dsbt.modversionrange=false`.
